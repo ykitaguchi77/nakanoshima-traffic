@@ -11,13 +11,13 @@ body {
     color: var(--secondary-color);
     max-width: 210mm; /* A4 width */
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px; /* 縦のパディングを減らす */
     background-color: var(--background-color);
 }
 
 .content {
     background-color: white;
-    padding: 30px;
+    padding: 20px; /* 縦のパディングを減らす */
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -25,24 +25,24 @@ h1 {
     font-size: 28px;
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 5px; /* 縦のパディングを減らす */
+    margin-bottom: 15px; /* 縦のマージンを減らす */
 }
 
 h2 {
     font-size: 22px;
     color: var(--primary-color);
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 20px; /* 縦のマージンを減らす */
+    margin-bottom: 10px; /* 縦のマージンを減らす */
 }
 
 ul {
     padding-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px; /* 縦のマージンを減らす */
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* 縦のマージンを減らす */
 }
 
 .highlight {
@@ -53,7 +53,7 @@ li {
 .images-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 15px; /* 縦のマージンを減らす */
 }
 
 .images-container img {
@@ -74,7 +74,7 @@ li {
 .clinic-info {
     margin-top: 0px; /* 上のマージンを少し詰める */
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 15px; /* 縦のパディングを減らす */
     border-radius: 5px;
 }
 
